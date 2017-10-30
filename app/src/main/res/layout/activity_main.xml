@@ -1,0 +1,16 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.w0178837.inclass_gridview.MainActivity">
+    tools:ignore="MergeRootFrame" >
+
+    <GridView
+        android:id="@+id/gridView1"
+        android:layout_width="wrap_content"
+        android:layout_height="192dp"
+        android:numColumns="3" >
+    </GridView>
+
+</FrameLayout>
